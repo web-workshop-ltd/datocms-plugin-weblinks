@@ -6,8 +6,7 @@
   "main": "weblinks.js",
   "datoCmsPlugin": {
     "title": "Weblinks",
-    "previewImage": "docs/preview.gif",
-    "coverImage": "docs/cover.gif",
+    "coverImage": "cover.svg",
     "entryPoint": "weblinks.html",
     "fieldTypes": ["json"],
     "pluginType": "sidebar",
