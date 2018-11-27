@@ -1,14 +1,18 @@
 {
   "name": "datocms-plugin-weblinks",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "A simple plugin for Dato CMS which shows a sidebar link to view the current model on the web.",
-  "keywords": ["datocms-plugin"],
+  "keywords": [
+    "datocms-plugin"
+  ],
   "main": "weblinks.js",
   "datoCmsPlugin": {
     "title": "Weblinks",
     "coverImage": "cover.svg",
     "entryPoint": "weblinks.html",
-    "fieldTypes": ["json"],
+    "fieldTypes": [
+      "json"
+    ],
     "pluginType": "sidebar",
     "parameters": {
       "global": [],
