@@ -1,0 +1,49 @@
+{
+  "name": "datocms-plugin-weblinks",
+  "version": "0.0.1",
+  "description": "A simple plugin for Dato CMS which shows a sidebar link to view the current model on the web.",
+  "keywords": ["datocms-plugin"],
+  "main": "weblinks.js",
+  "datoCmsPlugin": {
+    "title": "Weblinks",
+    "previewImage": "docs/preview.gif",
+    "coverImage": "docs/cover.gif",
+    "entryPoint": "weblinks.html",
+    "fieldTypes": ["json"],
+    "pluginType": "sidebar",
+    "parameters": {
+      "global": [],
+      "instance": [
+        {
+          "id": "label",
+          "label": "Link Label",
+          "type": "string",
+          "hint": "Label for the link (eg. ‘View this article on our site’)",
+          "required": true,
+          "default": "View on the web"
+        },
+        {
+          "id": "template",
+          "label": "Link Template",
+          "type": "string",
+          "hint": "Pattern to create the link (eg. https://example.com/articles/:id/:slug)",
+          "required": true,
+          "default": "https://example.com/:id"
+        }
+      ]
+    }
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/web-workshop-ltd/datocms-plugin-weblinks.git"
+  },
+  "author": "Dan Halliday",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/web-workshop-ltd/datocms-plugin-weblinks/issues"
+  },
+  "homepage": "https://github.com/web-workshop-ltd/datocms-plugin-weblinks#readme"
+}
